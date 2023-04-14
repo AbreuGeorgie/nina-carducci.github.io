@@ -75,15 +75,20 @@ body {
 	flex: 2
 }
 .about-me__title {
-	margin-top: 1em;
-	margin-bottom: 60px;
-	font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: start;
+	padding-block: 0;
 }
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	display: block;
+    line-height: 1.2rem;
+	margin-bottom: 9px
 }
 #about-me p {
 	width: 80%;
@@ -245,9 +250,16 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
 }
 
 @media all and (max-width: 1180px) {
@@ -261,7 +273,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me, .about-me__introduction, #about-me p {
 		width: 100%;
 	}
 }
