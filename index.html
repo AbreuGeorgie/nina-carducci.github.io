@@ -28,6 +28,25 @@
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"streetAddress": "68 avenue Alsace-Lorraine"
+		  },
+		  "image": "https://nina-carducci.github.io/assets/images/nina.png",
+		  "description": "Nina Carducci, La photographe Nina Carducci réalise des Shooting photo (portrait, entreprise...), des albums photos ainsi que des retouches. En studio comme en extérieur",
+		  "name": "Nina Carducci, photographe",
+		  "telephone": "(+33)5 56 67 78 89",
+		  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00"
+		  "url": "https://nina-carducci.github.io/"
+		}
+
+	</script>
 </head>
 <body>
 <div class="top-header">
@@ -168,16 +187,7 @@
 		</div>
 	</div>
 </div>
-<footer itemscope itemtype="https://schema.org/Person">
-	<span itemprop="name">Nina Carducci</span>
-	<span itemprop="jobTitle">Photographe</span>
-	<div itemprop="address" itemscope itemtype="https://nina-carducci.github.io/">
-		<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-		<span itemprop="addressLocality">Bordeaux</span>,
-		<span itemprop="postalCode">33200</span>
-	</div>
-	<span itemprop="telephone">(+33)5 56 67 78 89</span>
-	<p>Ouvert : <span itemprop="openingHours" content="Mo,Tu,We,Th 10:00-19:00">Du lundi au vendredi de 10h à 19h</span></p>
+<footer>
 </footer>
 </body>
 </html>
