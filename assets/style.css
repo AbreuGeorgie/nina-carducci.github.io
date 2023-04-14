@@ -263,6 +263,12 @@ footer{
 	align-items: center;
 }
 
+@media (min-width: 1000px) {
+	.desktop {
+		display: block;
+	}
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -336,6 +342,9 @@ footer{
 		right: 0;
 		z-index: -1;
 	}
+	.tablette {
+		display: block;
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -370,6 +379,9 @@ footer{
 	}
 	.picture {
 		width: 80%;
+	}
+	.mobile {
+		display: block;
 	}
 }
 
