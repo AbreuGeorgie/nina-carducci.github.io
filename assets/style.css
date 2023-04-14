@@ -131,6 +131,7 @@ h2{
 }
 .gallery-item {
 	position: absolute;
+	max-width: 466px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
