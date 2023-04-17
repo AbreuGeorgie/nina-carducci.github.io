@@ -154,7 +154,7 @@
         }
       });
 
-      next =  imagesCollection[index-1]|| imagesCollection[imagesCollection.length - 1];
+      next =  imagesCollection[index-1]|| imagesCollection[imagesCollection.length - 1]; //MODIFICATION DE L'INDEX
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -191,7 +191,7 @@
           index = i;
         }
       });
-      next = imagesCollection[index + 1] || imagesCollection[0];
+      next = imagesCollection[index + 1] || imagesCollection[0]; //MODIFICATION DE L'INDEX
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     createLightBox(gallery, lightboxId, navigation) {
