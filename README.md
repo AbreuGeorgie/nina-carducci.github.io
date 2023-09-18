@@ -14,7 +14,7 @@
 
 ### Contexte
 
-Je suis développeuse freelance, et je décide de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis.Nina répond positivement à ma demande en me demandant une optimisation de son site. Je vais donc optimiser son site selon ses demandes indiquées dans son mail plus bas, et lui fournir un rapport détaillé de votre intervention.
+Je suis développeuse freelance, et je décide de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site. Je vais donc optimiser son site selon ses demandes indiquées dans son mail plus bas, et lui fournir un rapport détaillé de votre intervention.
 
 
 
